@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ya-core-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-dependencies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-dependencies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-influxdb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-influxdb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-minio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-minio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-oss/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-rabbitmq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-rocketmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-rocketmq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-core/ya-starter-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ya-gateway/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.7</version>
+        <relativePath/>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ya</groupId>
+    <artifactId>ya-starter-dependencies</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1.0-SNAPSHOT</version>
+    <properties>
+        <yacloud.core.version>0.1.0-SNAPSHOT</yacloud.core.version>
+<!--        <maven.compiler.source>11</maven.compiler.source>-->
+<!--        <maven.compiler.target>11</maven.compiler.target>-->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+
+        <spring.boot.version>2.6.7</spring.boot.version>
+        <spring.cloud.version>2021.0.2</spring.cloud.version>
+        <alibaba.cloud.version>2021.0.1.0</alibaba.cloud.version>
+
+        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
+        <maven-site-plugin.version>3.11.0</maven-site-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+        <maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.12</nexus-staging-maven-plugin.version>
+
+        <mysql.connector.version>8.0.22</mysql.connector.version>
+        <postgresql.connector.version>42.3.3</postgresql.connector.version>
+        <druid.version>1.2.9</druid.version>
+        <mybatis.plus.version>3.5.1</mybatis.plus.version>
+        <mybaits.generator.version>3.4.1</mybaits.generator.version>
+        <dynamic-datasource.version>3.5.1</dynamic-datasource.version>
+        <swagger.version>2.10.5</swagger.version>
+        <swagger.models.version>1.6.2</swagger.models.version>
+        <knife4j.version>2.0.9</knife4j.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <!--验证码生成-->
+        <easy-captcha.version>1.6.2</easy-captcha.version>
+        <jakarta.validation-api.version>2.0.2</jakarta.validation-api.version>
+        <!--jetcache 基于java的缓存系统封装，提供统一的API和注解简化缓存的使用-->
+        <jetcache.version>2.6.4</jetcache.version>
+
+        <fastjson.version>1.2.80</fastjson.version>
+        <spring-boot-admin.version>2.6.6</spring-boot-admin.version>
+        <poi.version>4.1.2</poi.version>
+        <nacos.client.version>2.1.0</nacos.client.version>
+        <easypoi.version>4.4.0</easypoi.version>
+        <ip2region.version>1.7.2</ip2region.version>
+        <!--第三方授权登录的工具类库-->
+        <justauth.version>1.16.5</justauth.version>
+        <justauth.springboot.version>1.3.3</justauth.springboot.version>
+        <okhttp.version>4.9.3</okhttp.version>
+
+        <sharding-jdbc.version>4.1.1</sharding-jdbc.version>
+
+        <elastic.version>[7.14.0,)</elastic.version>
+        <!--集合工具类包-->
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <!--Java Bean到Java Bean映射器,复制 JavaBean 属性的类库-->
+        <dozer.version>6.5.0</dozer.version>
+        <!--一个高级的分布式协调Redis客服端-->
+        <redisson.version>3.17.0</redisson.version>
+        <!--高性能基于Java编写的Redis驱动框架，底层集成了Project Reactor提供天然的反应式编程，通信框架集成了Netty使用了非阻塞IO，5.x版本之后融合了JDK1.8的异步编程特性，在保证高性能的同时提供了十分丰富易用的API-->
+        <lettuce.version>6.1.6.RELEASE</lettuce.version>
+        <sentinel.version>1.8.3</sentinel.version>
+        <!-- transmittable-thread-local主要是用于线程池等线程复用时，需要确保子线程的InheritableThreadLocal变量永远跟该线程创建时的父线程的InheritableThreadLocal一致的场景下，弥补InheritableThreadLocal的不足，通常应用于方法级监控的中间件中-->
+        <transmittable.version>2.12.2</transmittable.version>
+        <!--处理IO的一些工具类包-->
+        <commons-io.version>2.8.0</commons-io.version>
+        <rocketmq.version>4.9.3</rocketmq.version>
+        <seata.version>1.4.2</seata.version>
+        <prometheus.version>1.8.5</prometheus.version>
+        <!--数据加解密和数据反显-->
+        <jasypt.version>3.0.4</jasypt.version>
+        <!--基于okhttp的一个http客户端工具-->
+        <retrofit.version>2.2.3</retrofit.version>
+        <!--Java对象序列化为JSON，反之亦然。 它是由Google开发的一个开源库-->
+        <gson.version>2.8.9</gson.version>
+        <!--谷歌工具类-->
+        <guava.version>31.1-jre</guava.version>
+        <aws-java-sdk-s3.version>1.12.205</aws-java-sdk-s3.version>
+        <lombok.version>1.18.24</lombok.version>
+        <hutool.version>5.7.22</hutool.version>
+        <!--基于Spring的企业应用系统提供声明式的安全访问控制解决方案的安全框架-->
+        <spring.security.version>2.6.6</spring.security.version>
+        <!--高性能本地缓存组件-->
+        <caffeine.version>3.0.6</caffeine.version>
+        <!--jaxb注解是根据XML Schema产生Java类-->
+        <sun.jaxb.version>2.3.5</sun.jaxb.version>
+        <!--api 文档标准,swagger 是一个 api 文档维护组织，后来成为了 Open API 标准的主要定义者-->
+        <springdoc-openapi.version>1.6.8</springdoc-openapi.version>
+    </properties>
+    <dependencyManagement>
+    </dependencyManagement>
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-jar-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>${maven-site-plugin.version}</version>
+            </plugin>
+            <!-- Source -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>${maven-source-plugin.version}</version>
+                <configuration>
+                    <attach>true</attach>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

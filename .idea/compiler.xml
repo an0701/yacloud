@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ya-core-example" />
+        <module name="ya-starter-mybatis" />
+        <module name="ya-starter-minio" />
+        <module name="ya-starter-rabbitmq" />
+        <module name="ya-starter-oss" />
+        <module name="ya-starter-rocketmq" />
+        <module name="ya-starter-influxdb" />
+        <module name="ya-starter-seata" />
+        <module name="ya-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ya-core" target="11" />
+      <module name="ya-core-example" target="11" />
+      <module name="ya-gateway" target="11" />
+      <module name="ya-starter-dependencies" target="1.8" />
+      <module name="ya-starter-influxdb" target="11" />
+      <module name="ya-starter-minio" target="11" />
+      <module name="ya-starter-mybatis" target="11" />
+      <module name="ya-starter-oss" target="11" />
+      <module name="ya-starter-rabbitmq" target="11" />
+      <module name="ya-starter-rocketmq" target="11" />
+      <module name="ya-starter-seata" target="11" />
+      <module name="yacloud" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

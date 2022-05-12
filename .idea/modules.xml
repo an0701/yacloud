@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-core.iml" filepath="$PROJECT_DIR$/ya-core/ya-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core-example/ya-core-example.iml" filepath="$PROJECT_DIR$/ya-core-example/ya-core-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-gateway/ya-gateway.iml" filepath="$PROJECT_DIR$/ya-gateway/ya-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-dependencies/ya-starter-dependencies.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-dependencies/ya-starter-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-influxdb/ya-starter-influxdb.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-influxdb/ya-starter-influxdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-minio/ya-starter-minio.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-minio/ya-starter-minio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-mybatis/ya-starter-mybatis.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-mybatis/ya-starter-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-oss/ya-starter-oss.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-oss/ya-starter-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-rabbitmq/ya-starter-rabbitmq.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-rabbitmq/ya-starter-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-rocketmq/ya-starter-rocketmq.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-rocketmq/ya-starter-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ya-core/ya-starter-seata/ya-starter-seata.iml" filepath="$PROJECT_DIR$/ya-core/ya-starter-seata/ya-starter-seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yacloud.iml" filepath="$PROJECT_DIR$/yacloud.iml" />
+    </modules>
+  </component>
+</project>
